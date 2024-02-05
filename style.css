@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: 'Roboto', sans-serif;
+  transition: 0.5s;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #01013a;
+  color: #fff;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.082);
+    /* background: url(./neom-_5TOw0ED9Jk-unsplash.jpg);
+    background-position: center;
+    background-size: cover; */
+    padding: 60px 40px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+}
+
+input {
+  margin: 10px;
+  width: 320px;
+  padding: 7px;
+  background: transparent;
+  border-bottom: 2px solid #fff;
+  outline: none;
+  color: #ffff;
+  font-size: 18px;
+}
+
+input::placeholder {
+    color: #ffff;
+}
+
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+button {
+    color: #fff;
+    background-color: #0000ff;
+    padding: 10px 90px;
+    border-radius: 40px;
+    font-size: 17px;
+}
+
+.sub {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+a {
+    color: #fff;
+}
